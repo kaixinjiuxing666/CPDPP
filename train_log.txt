@@ -1,0 +1,1150 @@
+The word length is 64
+The word embedding type is BERT
+the number of train : 68108
+The word length is 64
+The word embedding type is BERT
+the number of test : 6148
+import CMPM
+Number of model parameters: 283950652
+optimizer is：Adam
+lr_scheduler is MultiStepLR
+**********************************************************
+learning rate warm_up
+lr : 0.00015000000000000001
+Train Epoch:[1/80] iteration:[0/1065] cmpm_loss:202.5917
+Train Epoch:[1/80] iteration:[100/1065] cmpm_loss:197.0359
+Train Epoch:[1/80] iteration:[200/1065] cmpm_loss:196.6334
+Train Epoch:[1/80] iteration:[300/1065] cmpm_loss:196.3525
+Train Epoch:[1/80] iteration:[400/1065] cmpm_loss:195.9154
+Train Epoch:[1/80] iteration:[500/1065] cmpm_loss:194.7749
+Train Epoch:[1/80] iteration:[600/1065] cmpm_loss:192.6066
+Train Epoch:[1/80] iteration:[700/1065] cmpm_loss:189.5508
+Train Epoch:[1/80] iteration:[800/1065] cmpm_loss:186.0397
+Train Epoch:[1/80] iteration:[900/1065] cmpm_loss:182.3495
+Train Epoch:[1/80] iteration:[1000/1065] cmpm_loss:178.8493
+Epoch_training complete in 11m 37s
+**********************************************************
+learning rate warm_up
+lr : 0.00030000000000000003
+Train Epoch:[2/80] iteration:[0/1065] cmpm_loss:144.1889
+Train Epoch:[2/80] iteration:[100/1065] cmpm_loss:149.1537
+Train Epoch:[2/80] iteration:[200/1065] cmpm_loss:147.8180
+Train Epoch:[2/80] iteration:[300/1065] cmpm_loss:145.0820
+Train Epoch:[2/80] iteration:[400/1065] cmpm_loss:143.2200
+Train Epoch:[2/80] iteration:[500/1065] cmpm_loss:141.4679
+Train Epoch:[2/80] iteration:[600/1065] cmpm_loss:139.4671
+Train Epoch:[2/80] iteration:[700/1065] cmpm_loss:137.6760
+Train Epoch:[2/80] iteration:[800/1065] cmpm_loss:135.8069
+Train Epoch:[2/80] iteration:[900/1065] cmpm_loss:134.2291
+Train Epoch:[2/80] iteration:[1000/1065] cmpm_loss:132.8474
+Epoch_training complete in 11m 19s
+**********************************************************
+learning rate warm_up
+lr : 0.00045
+Train Epoch:[3/80] iteration:[0/1065] cmpm_loss:116.9768
+Train Epoch:[3/80] iteration:[100/1065] cmpm_loss:121.1442
+Train Epoch:[3/80] iteration:[200/1065] cmpm_loss:120.4976
+Train Epoch:[3/80] iteration:[300/1065] cmpm_loss:120.5120
+Train Epoch:[3/80] iteration:[400/1065] cmpm_loss:120.0834
+Train Epoch:[3/80] iteration:[500/1065] cmpm_loss:119.3112
+Train Epoch:[3/80] iteration:[600/1065] cmpm_loss:118.4921
+Train Epoch:[3/80] iteration:[700/1065] cmpm_loss:117.6246
+Train Epoch:[3/80] iteration:[800/1065] cmpm_loss:117.0024
+Train Epoch:[3/80] iteration:[900/1065] cmpm_loss:116.2840
+Train Epoch:[3/80] iteration:[1000/1065] cmpm_loss:115.5561
+Epoch_training complete in 11m 19s
+**********************************************************
+learning rate warm_up
+lr : 0.0006000000000000001
+Train Epoch:[4/80] iteration:[0/1065] cmpm_loss:118.7074
+Train Epoch:[4/80] iteration:[100/1065] cmpm_loss:109.1606
+Train Epoch:[4/80] iteration:[200/1065] cmpm_loss:109.6824
+Train Epoch:[4/80] iteration:[300/1065] cmpm_loss:109.5530
+Train Epoch:[4/80] iteration:[400/1065] cmpm_loss:109.4954
+Train Epoch:[4/80] iteration:[500/1065] cmpm_loss:108.8388
+Train Epoch:[4/80] iteration:[600/1065] cmpm_loss:108.7256
+Train Epoch:[4/80] iteration:[700/1065] cmpm_loss:108.4276
+Train Epoch:[4/80] iteration:[800/1065] cmpm_loss:107.8671
+Train Epoch:[4/80] iteration:[900/1065] cmpm_loss:107.4420
+Train Epoch:[4/80] iteration:[1000/1065] cmpm_loss:107.0130
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.00075
+Train Epoch:[5/80] iteration:[0/1065] cmpm_loss:99.2701
+Train Epoch:[5/80] iteration:[100/1065] cmpm_loss:104.0045
+Train Epoch:[5/80] iteration:[200/1065] cmpm_loss:103.4946
+Train Epoch:[5/80] iteration:[300/1065] cmpm_loss:103.3090
+Train Epoch:[5/80] iteration:[400/1065] cmpm_loss:103.3628
+Train Epoch:[5/80] iteration:[500/1065] cmpm_loss:103.1283
+Train Epoch:[5/80] iteration:[600/1065] cmpm_loss:102.8280
+Train Epoch:[5/80] iteration:[700/1065] cmpm_loss:102.4267
+Train Epoch:[5/80] iteration:[800/1065] cmpm_loss:101.9946
+Train Epoch:[5/80] iteration:[900/1065] cmpm_loss:101.8661
+Train Epoch:[5/80] iteration:[1000/1065] cmpm_loss:101.4692
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.0009
+Train Epoch:[6/80] iteration:[0/1065] cmpm_loss:95.0269
+Train Epoch:[6/80] iteration:[100/1065] cmpm_loss:97.8711
+Train Epoch:[6/80] iteration:[200/1065] cmpm_loss:98.2194
+Train Epoch:[6/80] iteration:[300/1065] cmpm_loss:98.3900
+Train Epoch:[6/80] iteration:[400/1065] cmpm_loss:98.2701
+Train Epoch:[6/80] iteration:[500/1065] cmpm_loss:98.0266
+Train Epoch:[6/80] iteration:[600/1065] cmpm_loss:97.8644
+Train Epoch:[6/80] iteration:[700/1065] cmpm_loss:97.7257
+Train Epoch:[6/80] iteration:[800/1065] cmpm_loss:97.5425
+Train Epoch:[6/80] iteration:[900/1065] cmpm_loss:97.3568
+Train Epoch:[6/80] iteration:[1000/1065] cmpm_loss:97.1159
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.00105
+Train Epoch:[7/80] iteration:[0/1065] cmpm_loss:80.4208
+Train Epoch:[7/80] iteration:[100/1065] cmpm_loss:94.8354
+Train Epoch:[7/80] iteration:[200/1065] cmpm_loss:94.7546
+Train Epoch:[7/80] iteration:[300/1065] cmpm_loss:93.7240
+Train Epoch:[7/80] iteration:[400/1065] cmpm_loss:93.5250
+Train Epoch:[7/80] iteration:[500/1065] cmpm_loss:93.3104
+Train Epoch:[7/80] iteration:[600/1065] cmpm_loss:93.2825
+Train Epoch:[7/80] iteration:[700/1065] cmpm_loss:92.8851
+Train Epoch:[7/80] iteration:[800/1065] cmpm_loss:92.5855
+Train Epoch:[7/80] iteration:[900/1065] cmpm_loss:92.1353
+Train Epoch:[7/80] iteration:[1000/1065] cmpm_loss:91.7858
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.0012000000000000001
+Train Epoch:[8/80] iteration:[0/1065] cmpm_loss:88.9421
+Train Epoch:[8/80] iteration:[100/1065] cmpm_loss:86.0328
+Train Epoch:[8/80] iteration:[200/1065] cmpm_loss:85.5938
+Train Epoch:[8/80] iteration:[300/1065] cmpm_loss:86.1155
+Train Epoch:[8/80] iteration:[400/1065] cmpm_loss:86.3103
+Train Epoch:[8/80] iteration:[500/1065] cmpm_loss:86.0215
+Train Epoch:[8/80] iteration:[600/1065] cmpm_loss:86.0378
+Train Epoch:[8/80] iteration:[700/1065] cmpm_loss:86.0293
+Train Epoch:[8/80] iteration:[800/1065] cmpm_loss:85.5946
+Train Epoch:[8/80] iteration:[900/1065] cmpm_loss:85.2232
+Train Epoch:[8/80] iteration:[1000/1065] cmpm_loss:84.9403
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.00135
+Train Epoch:[9/80] iteration:[0/1065] cmpm_loss:82.2099
+Train Epoch:[9/80] iteration:[100/1065] cmpm_loss:77.3976
+Train Epoch:[9/80] iteration:[200/1065] cmpm_loss:77.5777
+Train Epoch:[9/80] iteration:[300/1065] cmpm_loss:77.4778
+Train Epoch:[9/80] iteration:[400/1065] cmpm_loss:77.6348
+Train Epoch:[9/80] iteration:[500/1065] cmpm_loss:78.1218
+Train Epoch:[9/80] iteration:[600/1065] cmpm_loss:78.1926
+Train Epoch:[9/80] iteration:[700/1065] cmpm_loss:78.5049
+Train Epoch:[9/80] iteration:[800/1065] cmpm_loss:78.4471
+Train Epoch:[9/80] iteration:[900/1065] cmpm_loss:78.3606
+Train Epoch:[9/80] iteration:[1000/1065] cmpm_loss:78.1126
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.0015
+Train Epoch:[10/80] iteration:[0/1065] cmpm_loss:81.6951
+Train Epoch:[10/80] iteration:[100/1065] cmpm_loss:72.5164
+Train Epoch:[10/80] iteration:[200/1065] cmpm_loss:72.9622
+Train Epoch:[10/80] iteration:[300/1065] cmpm_loss:73.1144
+Train Epoch:[10/80] iteration:[400/1065] cmpm_loss:73.1965
+Train Epoch:[10/80] iteration:[500/1065] cmpm_loss:73.6305
+Train Epoch:[10/80] iteration:[600/1065] cmpm_loss:73.4428
+Train Epoch:[10/80] iteration:[700/1065] cmpm_loss:73.3157
+Train Epoch:[10/80] iteration:[800/1065] cmpm_loss:73.0767
+Train Epoch:[10/80] iteration:[900/1065] cmpm_loss:72.9973
+Train Epoch:[10/80] iteration:[1000/1065] cmpm_loss:72.9065
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.0016500000000000002
+Train Epoch:[11/80] iteration:[0/1065] cmpm_loss:80.4125
+Train Epoch:[11/80] iteration:[100/1065] cmpm_loss:68.9834
+Train Epoch:[11/80] iteration:[200/1065] cmpm_loss:69.3375
+Train Epoch:[11/80] iteration:[300/1065] cmpm_loss:69.4912
+Train Epoch:[11/80] iteration:[400/1065] cmpm_loss:69.4201
+Train Epoch:[11/80] iteration:[500/1065] cmpm_loss:69.2943
+Train Epoch:[11/80] iteration:[600/1065] cmpm_loss:69.2536
+Train Epoch:[11/80] iteration:[700/1065] cmpm_loss:69.2298
+Train Epoch:[11/80] iteration:[800/1065] cmpm_loss:69.3035
+Train Epoch:[11/80] iteration:[900/1065] cmpm_loss:68.9650
+Train Epoch:[11/80] iteration:[1000/1065] cmpm_loss:69.0302
+Epoch_training complete in 11m 19s
+**********************************************************
+learning rate warm_up
+lr : 0.0018
+Train Epoch:[12/80] iteration:[0/1065] cmpm_loss:58.0240
+Train Epoch:[12/80] iteration:[100/1065] cmpm_loss:66.0713
+Train Epoch:[12/80] iteration:[200/1065] cmpm_loss:65.3189
+Train Epoch:[12/80] iteration:[300/1065] cmpm_loss:65.6693
+Train Epoch:[12/80] iteration:[400/1065] cmpm_loss:65.6742
+Train Epoch:[12/80] iteration:[500/1065] cmpm_loss:65.6869
+Train Epoch:[12/80] iteration:[600/1065] cmpm_loss:66.0751
+Train Epoch:[12/80] iteration:[700/1065] cmpm_loss:65.9862
+Train Epoch:[12/80] iteration:[800/1065] cmpm_loss:65.9988
+Train Epoch:[12/80] iteration:[900/1065] cmpm_loss:65.8521
+Train Epoch:[12/80] iteration:[1000/1065] cmpm_loss:65.8369
+Epoch_training complete in 11m 18s
+**********************************************************
+learning rate warm_up
+lr : 0.0019500000000000001
+Train Epoch:[13/80] iteration:[0/1065] cmpm_loss:60.2432
+Train Epoch:[13/80] iteration:[100/1065] cmpm_loss:62.1394
+Train Epoch:[13/80] iteration:[200/1065] cmpm_loss:61.6449
+Train Epoch:[13/80] iteration:[300/1065] cmpm_loss:61.6025
+Train Epoch:[13/80] iteration:[400/1065] cmpm_loss:62.0714
+Train Epoch:[13/80] iteration:[500/1065] cmpm_loss:62.3052
+Train Epoch:[13/80] iteration:[600/1065] cmpm_loss:62.1088
+Train Epoch:[13/80] iteration:[700/1065] cmpm_loss:62.2200
+Train Epoch:[13/80] iteration:[800/1065] cmpm_loss:62.3960
+Train Epoch:[13/80] iteration:[900/1065] cmpm_loss:62.5308
+Train Epoch:[13/80] iteration:[1000/1065] cmpm_loss:62.6911
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.0021
+Train Epoch:[14/80] iteration:[0/1065] cmpm_loss:70.2936
+Train Epoch:[14/80] iteration:[100/1065] cmpm_loss:60.3742
+Train Epoch:[14/80] iteration:[200/1065] cmpm_loss:60.4463
+Train Epoch:[14/80] iteration:[300/1065] cmpm_loss:60.5874
+Train Epoch:[14/80] iteration:[400/1065] cmpm_loss:60.3599
+Train Epoch:[14/80] iteration:[500/1065] cmpm_loss:59.8248
+Train Epoch:[14/80] iteration:[600/1065] cmpm_loss:59.7994
+Train Epoch:[14/80] iteration:[700/1065] cmpm_loss:59.9492
+Train Epoch:[14/80] iteration:[800/1065] cmpm_loss:59.9698
+Train Epoch:[14/80] iteration:[900/1065] cmpm_loss:60.0725
+Train Epoch:[14/80] iteration:[1000/1065] cmpm_loss:60.0912
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.0022500000000000003
+Train Epoch:[15/80] iteration:[0/1065] cmpm_loss:66.5024
+Train Epoch:[15/80] iteration:[100/1065] cmpm_loss:56.1522
+Train Epoch:[15/80] iteration:[200/1065] cmpm_loss:57.1359
+Train Epoch:[15/80] iteration:[300/1065] cmpm_loss:57.1490
+Train Epoch:[15/80] iteration:[400/1065] cmpm_loss:57.0974
+Train Epoch:[15/80] iteration:[500/1065] cmpm_loss:57.8165
+Train Epoch:[15/80] iteration:[600/1065] cmpm_loss:58.1641
+Train Epoch:[15/80] iteration:[700/1065] cmpm_loss:58.0803
+Train Epoch:[15/80] iteration:[800/1065] cmpm_loss:58.1307
+Train Epoch:[15/80] iteration:[900/1065] cmpm_loss:58.0869
+Train Epoch:[15/80] iteration:[1000/1065] cmpm_loss:58.2150
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.0024000000000000002
+Train Epoch:[16/80] iteration:[0/1065] cmpm_loss:61.6004
+Train Epoch:[16/80] iteration:[100/1065] cmpm_loss:55.8687
+Train Epoch:[16/80] iteration:[200/1065] cmpm_loss:55.7964
+Train Epoch:[16/80] iteration:[300/1065] cmpm_loss:56.0784
+Train Epoch:[16/80] iteration:[400/1065] cmpm_loss:56.0636
+Train Epoch:[16/80] iteration:[500/1065] cmpm_loss:56.3153
+Train Epoch:[16/80] iteration:[600/1065] cmpm_loss:56.1234
+Train Epoch:[16/80] iteration:[700/1065] cmpm_loss:55.8869
+Train Epoch:[16/80] iteration:[800/1065] cmpm_loss:56.1314
+Train Epoch:[16/80] iteration:[900/1065] cmpm_loss:56.1212
+Train Epoch:[16/80] iteration:[1000/1065] cmpm_loss:55.9813
+Epoch_training complete in 11m 19s
+**********************************************************
+learning rate warm_up
+lr : 0.00255
+Train Epoch:[17/80] iteration:[0/1065] cmpm_loss:56.9598
+Train Epoch:[17/80] iteration:[100/1065] cmpm_loss:51.7189
+Train Epoch:[17/80] iteration:[200/1065] cmpm_loss:52.6826
+Train Epoch:[17/80] iteration:[300/1065] cmpm_loss:53.0197
+Train Epoch:[17/80] iteration:[400/1065] cmpm_loss:53.2635
+Train Epoch:[17/80] iteration:[500/1065] cmpm_loss:53.4822
+Train Epoch:[17/80] iteration:[600/1065] cmpm_loss:53.5798
+Train Epoch:[17/80] iteration:[700/1065] cmpm_loss:53.6682
+Train Epoch:[17/80] iteration:[800/1065] cmpm_loss:53.6158
+Train Epoch:[17/80] iteration:[900/1065] cmpm_loss:53.7721
+Train Epoch:[17/80] iteration:[1000/1065] cmpm_loss:53.8608
+Epoch_training complete in 11m 19s
+**********************************************************
+learning rate warm_up
+lr : 0.0027
+Train Epoch:[18/80] iteration:[0/1065] cmpm_loss:45.2677
+Train Epoch:[18/80] iteration:[100/1065] cmpm_loss:50.9410
+Train Epoch:[18/80] iteration:[200/1065] cmpm_loss:51.3485
+Train Epoch:[18/80] iteration:[300/1065] cmpm_loss:51.8152
+Train Epoch:[18/80] iteration:[400/1065] cmpm_loss:51.6720
+Train Epoch:[18/80] iteration:[500/1065] cmpm_loss:51.5641
+Train Epoch:[18/80] iteration:[600/1065] cmpm_loss:51.7552
+Train Epoch:[18/80] iteration:[700/1065] cmpm_loss:51.8856
+Train Epoch:[18/80] iteration:[800/1065] cmpm_loss:52.0529
+Train Epoch:[18/80] iteration:[900/1065] cmpm_loss:52.1264
+Train Epoch:[18/80] iteration:[1000/1065] cmpm_loss:52.2768
+Epoch_training complete in 11m 20s
+**********************************************************
+learning rate warm_up
+lr : 0.00285
+Train Epoch:[19/80] iteration:[0/1065] cmpm_loss:35.2183
+Train Epoch:[19/80] iteration:[100/1065] cmpm_loss:49.7047
+Train Epoch:[19/80] iteration:[200/1065] cmpm_loss:50.1432
+Train Epoch:[19/80] iteration:[300/1065] cmpm_loss:49.7178
+Train Epoch:[19/80] iteration:[400/1065] cmpm_loss:49.9551
+Train Epoch:[19/80] iteration:[500/1065] cmpm_loss:50.2669
+Train Epoch:[19/80] iteration:[600/1065] cmpm_loss:50.3519
+Train Epoch:[19/80] iteration:[700/1065] cmpm_loss:50.5509
+Train Epoch:[19/80] iteration:[800/1065] cmpm_loss:50.7432
+Train Epoch:[19/80] iteration:[900/1065] cmpm_loss:50.7881
+Train Epoch:[19/80] iteration:[1000/1065] cmpm_loss:50.7065
+Epoch_training complete in 11m 19s
+**********************************************************
+learning rate warm_up
+lr : 0.003
+Train Epoch:[20/80] iteration:[0/1065] cmpm_loss:43.0206
+Train Epoch:[20/80] iteration:[100/1065] cmpm_loss:46.2343
+Train Epoch:[20/80] iteration:[200/1065] cmpm_loss:47.0569
+Train Epoch:[20/80] iteration:[300/1065] cmpm_loss:47.9864
+Train Epoch:[20/80] iteration:[400/1065] cmpm_loss:48.3908
+Train Epoch:[20/80] iteration:[500/1065] cmpm_loss:48.4841
+Train Epoch:[20/80] iteration:[600/1065] cmpm_loss:48.5593
+Train Epoch:[20/80] iteration:[700/1065] cmpm_loss:48.5966
+Train Epoch:[20/80] iteration:[800/1065] cmpm_loss:48.7946
+Train Epoch:[20/80] iteration:[900/1065] cmpm_loss:48.8101
+Train Epoch:[20/80] iteration:[1000/1065] cmpm_loss:48.9938
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[21/80] iteration:[0/1065] cmpm_loss:48.6237
+Train Epoch:[21/80] iteration:[100/1065] cmpm_loss:44.6275
+Train Epoch:[21/80] iteration:[200/1065] cmpm_loss:44.9299
+Train Epoch:[21/80] iteration:[300/1065] cmpm_loss:44.9097
+Train Epoch:[21/80] iteration:[400/1065] cmpm_loss:45.1621
+Train Epoch:[21/80] iteration:[500/1065] cmpm_loss:45.5490
+Train Epoch:[21/80] iteration:[600/1065] cmpm_loss:45.8121
+Train Epoch:[21/80] iteration:[700/1065] cmpm_loss:46.1208
+Train Epoch:[21/80] iteration:[800/1065] cmpm_loss:46.2533
+Train Epoch:[21/80] iteration:[900/1065] cmpm_loss:46.3588
+Train Epoch:[21/80] iteration:[1000/1065] cmpm_loss:46.4036
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[22/80] iteration:[0/1065] cmpm_loss:47.7829
+Train Epoch:[22/80] iteration:[100/1065] cmpm_loss:43.6608
+Train Epoch:[22/80] iteration:[200/1065] cmpm_loss:43.3046
+Train Epoch:[22/80] iteration:[300/1065] cmpm_loss:44.0213
+Train Epoch:[22/80] iteration:[400/1065] cmpm_loss:43.7506
+Train Epoch:[22/80] iteration:[500/1065] cmpm_loss:43.5578
+Train Epoch:[22/80] iteration:[600/1065] cmpm_loss:43.4979
+Train Epoch:[22/80] iteration:[700/1065] cmpm_loss:43.6858
+Train Epoch:[22/80] iteration:[800/1065] cmpm_loss:43.8840
+Train Epoch:[22/80] iteration:[900/1065] cmpm_loss:43.9752
+Train Epoch:[22/80] iteration:[1000/1065] cmpm_loss:44.0381
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[23/80] iteration:[0/1065] cmpm_loss:35.8276
+Train Epoch:[23/80] iteration:[100/1065] cmpm_loss:41.6690
+Train Epoch:[23/80] iteration:[200/1065] cmpm_loss:41.1012
+Train Epoch:[23/80] iteration:[300/1065] cmpm_loss:41.5320
+Train Epoch:[23/80] iteration:[400/1065] cmpm_loss:41.5472
+Train Epoch:[23/80] iteration:[500/1065] cmpm_loss:41.7981
+Train Epoch:[23/80] iteration:[600/1065] cmpm_loss:41.8316
+Train Epoch:[23/80] iteration:[700/1065] cmpm_loss:41.7154
+Train Epoch:[23/80] iteration:[800/1065] cmpm_loss:41.8462
+Train Epoch:[23/80] iteration:[900/1065] cmpm_loss:41.8451
+Train Epoch:[23/80] iteration:[1000/1065] cmpm_loss:42.0157
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[24/80] iteration:[0/1065] cmpm_loss:37.9856
+Train Epoch:[24/80] iteration:[100/1065] cmpm_loss:38.6231
+Train Epoch:[24/80] iteration:[200/1065] cmpm_loss:39.3962
+Train Epoch:[24/80] iteration:[300/1065] cmpm_loss:39.4067
+Train Epoch:[24/80] iteration:[400/1065] cmpm_loss:39.5277
+Train Epoch:[24/80] iteration:[500/1065] cmpm_loss:39.5299
+Train Epoch:[24/80] iteration:[600/1065] cmpm_loss:39.5253
+Train Epoch:[24/80] iteration:[700/1065] cmpm_loss:39.6435
+Train Epoch:[24/80] iteration:[800/1065] cmpm_loss:39.8047
+Train Epoch:[24/80] iteration:[900/1065] cmpm_loss:40.1282
+Train Epoch:[24/80] iteration:[1000/1065] cmpm_loss:40.2632
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[25/80] iteration:[0/1065] cmpm_loss:30.7294
+Train Epoch:[25/80] iteration:[100/1065] cmpm_loss:37.3249
+Train Epoch:[25/80] iteration:[200/1065] cmpm_loss:36.8688
+Train Epoch:[25/80] iteration:[300/1065] cmpm_loss:37.3835
+Train Epoch:[25/80] iteration:[400/1065] cmpm_loss:37.8692
+Train Epoch:[25/80] iteration:[500/1065] cmpm_loss:37.5808
+Train Epoch:[25/80] iteration:[600/1065] cmpm_loss:37.9166
+Train Epoch:[25/80] iteration:[700/1065] cmpm_loss:37.7928
+Train Epoch:[25/80] iteration:[800/1065] cmpm_loss:37.8507
+Train Epoch:[25/80] iteration:[900/1065] cmpm_loss:38.0343
+Train Epoch:[25/80] iteration:[1000/1065] cmpm_loss:38.3415
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[26/80] iteration:[0/1065] cmpm_loss:24.1936
+Train Epoch:[26/80] iteration:[100/1065] cmpm_loss:36.4125
+Train Epoch:[26/80] iteration:[200/1065] cmpm_loss:36.2085
+Train Epoch:[26/80] iteration:[300/1065] cmpm_loss:36.1606
+Train Epoch:[26/80] iteration:[400/1065] cmpm_loss:36.3035
+Train Epoch:[26/80] iteration:[500/1065] cmpm_loss:36.2794
+Train Epoch:[26/80] iteration:[600/1065] cmpm_loss:36.4153
+Train Epoch:[26/80] iteration:[700/1065] cmpm_loss:36.1924
+Train Epoch:[26/80] iteration:[800/1065] cmpm_loss:36.3982
+Train Epoch:[26/80] iteration:[900/1065] cmpm_loss:36.4053
+Train Epoch:[26/80] iteration:[1000/1065] cmpm_loss:36.4710
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[27/80] iteration:[0/1065] cmpm_loss:32.4476
+Train Epoch:[27/80] iteration:[100/1065] cmpm_loss:34.9885
+Train Epoch:[27/80] iteration:[200/1065] cmpm_loss:34.4121
+Train Epoch:[27/80] iteration:[300/1065] cmpm_loss:33.8184
+Train Epoch:[27/80] iteration:[400/1065] cmpm_loss:34.0434
+Train Epoch:[27/80] iteration:[500/1065] cmpm_loss:34.5619
+Train Epoch:[27/80] iteration:[600/1065] cmpm_loss:34.7974
+Train Epoch:[27/80] iteration:[700/1065] cmpm_loss:34.7663
+Train Epoch:[27/80] iteration:[800/1065] cmpm_loss:34.9207
+Train Epoch:[27/80] iteration:[900/1065] cmpm_loss:35.2022
+Train Epoch:[27/80] iteration:[1000/1065] cmpm_loss:35.2140
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[28/80] iteration:[0/1065] cmpm_loss:38.0394
+Train Epoch:[28/80] iteration:[100/1065] cmpm_loss:32.6494
+Train Epoch:[28/80] iteration:[200/1065] cmpm_loss:32.6230
+Train Epoch:[28/80] iteration:[300/1065] cmpm_loss:32.1417
+Train Epoch:[28/80] iteration:[400/1065] cmpm_loss:32.3856
+Train Epoch:[28/80] iteration:[500/1065] cmpm_loss:32.7185
+Train Epoch:[28/80] iteration:[600/1065] cmpm_loss:32.8611
+Train Epoch:[28/80] iteration:[700/1065] cmpm_loss:33.1286
+Train Epoch:[28/80] iteration:[800/1065] cmpm_loss:33.1742
+Train Epoch:[28/80] iteration:[900/1065] cmpm_loss:33.4364
+Train Epoch:[28/80] iteration:[1000/1065] cmpm_loss:33.5192
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[29/80] iteration:[0/1065] cmpm_loss:26.8106
+Train Epoch:[29/80] iteration:[100/1065] cmpm_loss:32.0515
+Train Epoch:[29/80] iteration:[200/1065] cmpm_loss:31.7273
+Train Epoch:[29/80] iteration:[300/1065] cmpm_loss:31.8061
+Train Epoch:[29/80] iteration:[400/1065] cmpm_loss:32.0315
+Train Epoch:[29/80] iteration:[500/1065] cmpm_loss:32.1939
+Train Epoch:[29/80] iteration:[600/1065] cmpm_loss:32.0396
+Train Epoch:[29/80] iteration:[700/1065] cmpm_loss:32.0365
+Train Epoch:[29/80] iteration:[800/1065] cmpm_loss:32.2243
+Train Epoch:[29/80] iteration:[900/1065] cmpm_loss:32.2932
+Train Epoch:[29/80] iteration:[1000/1065] cmpm_loss:32.3233
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[30/80] iteration:[0/1065] cmpm_loss:32.8905
+Train Epoch:[30/80] iteration:[100/1065] cmpm_loss:29.7915
+Train Epoch:[30/80] iteration:[200/1065] cmpm_loss:29.4122
+Train Epoch:[30/80] iteration:[300/1065] cmpm_loss:29.6252
+Train Epoch:[30/80] iteration:[400/1065] cmpm_loss:29.9720
+Train Epoch:[30/80] iteration:[500/1065] cmpm_loss:30.1708
+Train Epoch:[30/80] iteration:[600/1065] cmpm_loss:30.2537
+Train Epoch:[30/80] iteration:[700/1065] cmpm_loss:30.3272
+Train Epoch:[30/80] iteration:[800/1065] cmpm_loss:30.6663
+Train Epoch:[30/80] iteration:[900/1065] cmpm_loss:30.8889
+Train Epoch:[30/80] iteration:[1000/1065] cmpm_loss:31.0403
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[31/80] iteration:[0/1065] cmpm_loss:34.1198
+Train Epoch:[31/80] iteration:[100/1065] cmpm_loss:28.6285
+Train Epoch:[31/80] iteration:[200/1065] cmpm_loss:30.0024
+Train Epoch:[31/80] iteration:[300/1065] cmpm_loss:30.0521
+Train Epoch:[31/80] iteration:[400/1065] cmpm_loss:29.7441
+Train Epoch:[31/80] iteration:[500/1065] cmpm_loss:29.8764
+Train Epoch:[31/80] iteration:[600/1065] cmpm_loss:30.1098
+Train Epoch:[31/80] iteration:[700/1065] cmpm_loss:30.0559
+Train Epoch:[31/80] iteration:[800/1065] cmpm_loss:30.0346
+Train Epoch:[31/80] iteration:[900/1065] cmpm_loss:30.1430
+Train Epoch:[31/80] iteration:[1000/1065] cmpm_loss:30.1448
+Epoch_training complete in 11m 13s
+**********************************************************
+lr : 0.003
+Train Epoch:[32/80] iteration:[0/1065] cmpm_loss:30.5345
+Train Epoch:[32/80] iteration:[100/1065] cmpm_loss:27.6790
+Train Epoch:[32/80] iteration:[200/1065] cmpm_loss:27.8867
+Train Epoch:[32/80] iteration:[300/1065] cmpm_loss:27.9531
+Train Epoch:[32/80] iteration:[400/1065] cmpm_loss:27.7731
+Train Epoch:[32/80] iteration:[500/1065] cmpm_loss:28.0124
+Train Epoch:[32/80] iteration:[600/1065] cmpm_loss:28.1896
+Train Epoch:[32/80] iteration:[700/1065] cmpm_loss:28.4214
+Train Epoch:[32/80] iteration:[800/1065] cmpm_loss:28.5861
+Train Epoch:[32/80] iteration:[900/1065] cmpm_loss:28.7477
+Train Epoch:[32/80] iteration:[1000/1065] cmpm_loss:28.9095
+Epoch_training complete in 11m 27s
+**********************************************************
+lr : 0.003
+Train Epoch:[33/80] iteration:[0/1065] cmpm_loss:23.4296
+Train Epoch:[33/80] iteration:[100/1065] cmpm_loss:27.6350
+Train Epoch:[33/80] iteration:[200/1065] cmpm_loss:27.4295
+Train Epoch:[33/80] iteration:[300/1065] cmpm_loss:26.8681
+Train Epoch:[33/80] iteration:[400/1065] cmpm_loss:27.1074
+Train Epoch:[33/80] iteration:[500/1065] cmpm_loss:27.3053
+Train Epoch:[33/80] iteration:[600/1065] cmpm_loss:27.3896
+Train Epoch:[33/80] iteration:[700/1065] cmpm_loss:27.5334
+Train Epoch:[33/80] iteration:[800/1065] cmpm_loss:27.6025
+Train Epoch:[33/80] iteration:[900/1065] cmpm_loss:27.7762
+Train Epoch:[33/80] iteration:[1000/1065] cmpm_loss:27.8589
+Epoch_training complete in 14m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[34/80] iteration:[0/1065] cmpm_loss:24.9320
+Train Epoch:[34/80] iteration:[100/1065] cmpm_loss:26.4098
+Train Epoch:[34/80] iteration:[200/1065] cmpm_loss:26.8132
+Train Epoch:[34/80] iteration:[300/1065] cmpm_loss:26.2463
+Train Epoch:[34/80] iteration:[400/1065] cmpm_loss:26.1703
+Train Epoch:[34/80] iteration:[500/1065] cmpm_loss:26.1407
+Train Epoch:[34/80] iteration:[600/1065] cmpm_loss:26.1919
+Train Epoch:[34/80] iteration:[700/1065] cmpm_loss:26.4353
+Train Epoch:[34/80] iteration:[800/1065] cmpm_loss:26.3067
+Train Epoch:[34/80] iteration:[900/1065] cmpm_loss:26.4972
+Train Epoch:[34/80] iteration:[1000/1065] cmpm_loss:26.5360
+Epoch_training complete in 12m 19s
+**********************************************************
+lr : 0.003
+Train Epoch:[35/80] iteration:[0/1065] cmpm_loss:17.3348
+Train Epoch:[35/80] iteration:[100/1065] cmpm_loss:24.6015
+Train Epoch:[35/80] iteration:[200/1065] cmpm_loss:24.6113
+Train Epoch:[35/80] iteration:[300/1065] cmpm_loss:24.9026
+Train Epoch:[35/80] iteration:[400/1065] cmpm_loss:24.9486
+Train Epoch:[35/80] iteration:[500/1065] cmpm_loss:24.9684
+Train Epoch:[35/80] iteration:[600/1065] cmpm_loss:25.1088
+Train Epoch:[35/80] iteration:[700/1065] cmpm_loss:25.2496
+Train Epoch:[35/80] iteration:[800/1065] cmpm_loss:25.3912
+Train Epoch:[35/80] iteration:[900/1065] cmpm_loss:25.5464
+Train Epoch:[35/80] iteration:[1000/1065] cmpm_loss:25.7540
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[36/80] iteration:[0/1065] cmpm_loss:25.7845
+Train Epoch:[36/80] iteration:[100/1065] cmpm_loss:23.3655
+Train Epoch:[36/80] iteration:[200/1065] cmpm_loss:24.3193
+Train Epoch:[36/80] iteration:[300/1065] cmpm_loss:24.3425
+Train Epoch:[36/80] iteration:[400/1065] cmpm_loss:24.4610
+Train Epoch:[36/80] iteration:[500/1065] cmpm_loss:24.8813
+Train Epoch:[36/80] iteration:[600/1065] cmpm_loss:24.8226
+Train Epoch:[36/80] iteration:[700/1065] cmpm_loss:25.0438
+Train Epoch:[36/80] iteration:[800/1065] cmpm_loss:25.0400
+Train Epoch:[36/80] iteration:[900/1065] cmpm_loss:25.1479
+Train Epoch:[36/80] iteration:[1000/1065] cmpm_loss:25.1078
+Epoch_training complete in 11m 13s
+**********************************************************
+lr : 0.003
+Train Epoch:[37/80] iteration:[0/1065] cmpm_loss:19.4898
+Train Epoch:[37/80] iteration:[100/1065] cmpm_loss:22.8642
+Train Epoch:[37/80] iteration:[200/1065] cmpm_loss:22.6006
+Train Epoch:[37/80] iteration:[300/1065] cmpm_loss:23.2006
+Train Epoch:[37/80] iteration:[400/1065] cmpm_loss:23.3933
+Train Epoch:[37/80] iteration:[500/1065] cmpm_loss:23.5004
+Train Epoch:[37/80] iteration:[600/1065] cmpm_loss:23.6215
+Train Epoch:[37/80] iteration:[700/1065] cmpm_loss:23.8215
+Train Epoch:[37/80] iteration:[800/1065] cmpm_loss:23.9368
+Train Epoch:[37/80] iteration:[900/1065] cmpm_loss:23.9357
+Train Epoch:[37/80] iteration:[1000/1065] cmpm_loss:24.1095
+Epoch_training complete in 11m 12s
+**********************************************************
+lr : 0.003
+Train Epoch:[38/80] iteration:[0/1065] cmpm_loss:14.3387
+Train Epoch:[38/80] iteration:[100/1065] cmpm_loss:22.4439
+Train Epoch:[38/80] iteration:[200/1065] cmpm_loss:22.1983
+Train Epoch:[38/80] iteration:[300/1065] cmpm_loss:22.7618
+Train Epoch:[38/80] iteration:[400/1065] cmpm_loss:22.6840
+Train Epoch:[38/80] iteration:[500/1065] cmpm_loss:23.1449
+Train Epoch:[38/80] iteration:[600/1065] cmpm_loss:23.1191
+Train Epoch:[38/80] iteration:[700/1065] cmpm_loss:23.1588
+Train Epoch:[38/80] iteration:[800/1065] cmpm_loss:23.2906
+Train Epoch:[38/80] iteration:[900/1065] cmpm_loss:23.3914
+Train Epoch:[38/80] iteration:[1000/1065] cmpm_loss:23.4409
+Epoch_training complete in 11m 13s
+**********************************************************
+lr : 0.003
+Train Epoch:[39/80] iteration:[0/1065] cmpm_loss:14.1895
+Train Epoch:[39/80] iteration:[100/1065] cmpm_loss:20.9834
+Train Epoch:[39/80] iteration:[200/1065] cmpm_loss:21.5252
+Train Epoch:[39/80] iteration:[300/1065] cmpm_loss:21.4488
+Train Epoch:[39/80] iteration:[400/1065] cmpm_loss:21.8961
+Train Epoch:[39/80] iteration:[500/1065] cmpm_loss:22.2404
+Train Epoch:[39/80] iteration:[600/1065] cmpm_loss:22.2278
+Train Epoch:[39/80] iteration:[700/1065] cmpm_loss:22.4845
+Train Epoch:[39/80] iteration:[800/1065] cmpm_loss:22.5519
+Train Epoch:[39/80] iteration:[900/1065] cmpm_loss:22.6617
+Train Epoch:[39/80] iteration:[1000/1065] cmpm_loss:22.7896
+Epoch_training complete in 11m 17s
+**********************************************************
+lr : 0.003
+Train Epoch:[40/80] iteration:[0/1065] cmpm_loss:22.2064
+Train Epoch:[40/80] iteration:[100/1065] cmpm_loss:21.6026
+Train Epoch:[40/80] iteration:[200/1065] cmpm_loss:21.3163
+Train Epoch:[40/80] iteration:[300/1065] cmpm_loss:21.4898
+Train Epoch:[40/80] iteration:[400/1065] cmpm_loss:21.5953
+Train Epoch:[40/80] iteration:[500/1065] cmpm_loss:21.3950
+Train Epoch:[40/80] iteration:[600/1065] cmpm_loss:21.6086
+Train Epoch:[40/80] iteration:[700/1065] cmpm_loss:21.7292
+Train Epoch:[40/80] iteration:[800/1065] cmpm_loss:21.9153
+Train Epoch:[40/80] iteration:[900/1065] cmpm_loss:22.0339
+Train Epoch:[40/80] iteration:[1000/1065] cmpm_loss:22.2236
+Epoch_training complete in 11m 19s
+**********************************************************
+lr : 0.003
+Train Epoch:[41/80] iteration:[0/1065] cmpm_loss:27.7650
+Train Epoch:[41/80] iteration:[100/1065] cmpm_loss:20.7073
+Train Epoch:[41/80] iteration:[200/1065] cmpm_loss:20.0145
+Train Epoch:[41/80] iteration:[300/1065] cmpm_loss:20.0666
+Train Epoch:[41/80] iteration:[400/1065] cmpm_loss:20.3827
+Train Epoch:[41/80] iteration:[500/1065] cmpm_loss:20.4843
+Train Epoch:[41/80] iteration:[600/1065] cmpm_loss:20.7463
+Train Epoch:[41/80] iteration:[700/1065] cmpm_loss:20.7677
+Train Epoch:[41/80] iteration:[800/1065] cmpm_loss:20.9060
+Train Epoch:[41/80] iteration:[900/1065] cmpm_loss:21.0875
+Train Epoch:[41/80] iteration:[1000/1065] cmpm_loss:21.2293
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[42/80] iteration:[0/1065] cmpm_loss:23.9749
+Train Epoch:[42/80] iteration:[100/1065] cmpm_loss:19.6177
+Train Epoch:[42/80] iteration:[200/1065] cmpm_loss:19.8860
+Train Epoch:[42/80] iteration:[300/1065] cmpm_loss:20.4320
+Train Epoch:[42/80] iteration:[400/1065] cmpm_loss:20.4582
+Train Epoch:[42/80] iteration:[500/1065] cmpm_loss:20.3160
+Train Epoch:[42/80] iteration:[600/1065] cmpm_loss:20.4708
+Train Epoch:[42/80] iteration:[700/1065] cmpm_loss:20.5408
+Train Epoch:[42/80] iteration:[800/1065] cmpm_loss:20.5189
+Train Epoch:[42/80] iteration:[900/1065] cmpm_loss:20.5989
+Train Epoch:[42/80] iteration:[1000/1065] cmpm_loss:20.6993
+Epoch_training complete in 11m 20s
+**********************************************************
+lr : 0.003
+Train Epoch:[43/80] iteration:[0/1065] cmpm_loss:22.0934
+Train Epoch:[43/80] iteration:[100/1065] cmpm_loss:18.9547
+Train Epoch:[43/80] iteration:[200/1065] cmpm_loss:19.2027
+Train Epoch:[43/80] iteration:[300/1065] cmpm_loss:19.3810
+Train Epoch:[43/80] iteration:[400/1065] cmpm_loss:19.4958
+Train Epoch:[43/80] iteration:[500/1065] cmpm_loss:19.6044
+Train Epoch:[43/80] iteration:[600/1065] cmpm_loss:19.9058
+Train Epoch:[43/80] iteration:[700/1065] cmpm_loss:20.0034
+Train Epoch:[43/80] iteration:[800/1065] cmpm_loss:20.0371
+Train Epoch:[43/80] iteration:[900/1065] cmpm_loss:20.1482
+Train Epoch:[43/80] iteration:[1000/1065] cmpm_loss:20.2542
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[44/80] iteration:[0/1065] cmpm_loss:14.7697
+Train Epoch:[44/80] iteration:[100/1065] cmpm_loss:18.1647
+Train Epoch:[44/80] iteration:[200/1065] cmpm_loss:19.0003
+Train Epoch:[44/80] iteration:[300/1065] cmpm_loss:19.0566
+Train Epoch:[44/80] iteration:[400/1065] cmpm_loss:19.1551
+Train Epoch:[44/80] iteration:[500/1065] cmpm_loss:19.1231
+Train Epoch:[44/80] iteration:[600/1065] cmpm_loss:19.2434
+Train Epoch:[44/80] iteration:[700/1065] cmpm_loss:19.4380
+Train Epoch:[44/80] iteration:[800/1065] cmpm_loss:19.4101
+Train Epoch:[44/80] iteration:[900/1065] cmpm_loss:19.4424
+Train Epoch:[44/80] iteration:[1000/1065] cmpm_loss:19.4622
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[45/80] iteration:[0/1065] cmpm_loss:22.0770
+Train Epoch:[45/80] iteration:[100/1065] cmpm_loss:18.5469
+Train Epoch:[45/80] iteration:[200/1065] cmpm_loss:18.4197
+Train Epoch:[45/80] iteration:[300/1065] cmpm_loss:18.7156
+Train Epoch:[45/80] iteration:[400/1065] cmpm_loss:18.5892
+Train Epoch:[45/80] iteration:[500/1065] cmpm_loss:18.6984
+Train Epoch:[45/80] iteration:[600/1065] cmpm_loss:18.8039
+Train Epoch:[45/80] iteration:[700/1065] cmpm_loss:18.9191
+Train Epoch:[45/80] iteration:[800/1065] cmpm_loss:18.9799
+Train Epoch:[45/80] iteration:[900/1065] cmpm_loss:19.1280
+Train Epoch:[45/80] iteration:[1000/1065] cmpm_loss:19.2468
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[46/80] iteration:[0/1065] cmpm_loss:20.6982
+Train Epoch:[46/80] iteration:[100/1065] cmpm_loss:17.9783
+Train Epoch:[46/80] iteration:[200/1065] cmpm_loss:17.7082
+Train Epoch:[46/80] iteration:[300/1065] cmpm_loss:17.6758
+Train Epoch:[46/80] iteration:[400/1065] cmpm_loss:17.8652
+Train Epoch:[46/80] iteration:[500/1065] cmpm_loss:18.0179
+Train Epoch:[46/80] iteration:[600/1065] cmpm_loss:18.0164
+Train Epoch:[46/80] iteration:[700/1065] cmpm_loss:18.0377
+Train Epoch:[46/80] iteration:[800/1065] cmpm_loss:18.1403
+Train Epoch:[46/80] iteration:[900/1065] cmpm_loss:18.3373
+Train Epoch:[46/80] iteration:[1000/1065] cmpm_loss:18.3888
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[47/80] iteration:[0/1065] cmpm_loss:13.8476
+Train Epoch:[47/80] iteration:[100/1065] cmpm_loss:17.0900
+Train Epoch:[47/80] iteration:[200/1065] cmpm_loss:17.6184
+Train Epoch:[47/80] iteration:[300/1065] cmpm_loss:17.5726
+Train Epoch:[47/80] iteration:[400/1065] cmpm_loss:17.7255
+Train Epoch:[47/80] iteration:[500/1065] cmpm_loss:17.6849
+Train Epoch:[47/80] iteration:[600/1065] cmpm_loss:17.5763
+Train Epoch:[47/80] iteration:[700/1065] cmpm_loss:17.7096
+Train Epoch:[47/80] iteration:[800/1065] cmpm_loss:17.8407
+Train Epoch:[47/80] iteration:[900/1065] cmpm_loss:17.9007
+Train Epoch:[47/80] iteration:[1000/1065] cmpm_loss:17.9508
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[48/80] iteration:[0/1065] cmpm_loss:16.5400
+Train Epoch:[48/80] iteration:[100/1065] cmpm_loss:16.7211
+Train Epoch:[48/80] iteration:[200/1065] cmpm_loss:17.0136
+Train Epoch:[48/80] iteration:[300/1065] cmpm_loss:16.7603
+Train Epoch:[48/80] iteration:[400/1065] cmpm_loss:17.0477
+Train Epoch:[48/80] iteration:[500/1065] cmpm_loss:17.1566
+Train Epoch:[48/80] iteration:[600/1065] cmpm_loss:17.3069
+Train Epoch:[48/80] iteration:[700/1065] cmpm_loss:17.4555
+Train Epoch:[48/80] iteration:[800/1065] cmpm_loss:17.5710
+Train Epoch:[48/80] iteration:[900/1065] cmpm_loss:17.5322
+Train Epoch:[48/80] iteration:[1000/1065] cmpm_loss:17.7337
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[49/80] iteration:[0/1065] cmpm_loss:16.9222
+Train Epoch:[49/80] iteration:[100/1065] cmpm_loss:15.9051
+Train Epoch:[49/80] iteration:[200/1065] cmpm_loss:16.6613
+Train Epoch:[49/80] iteration:[300/1065] cmpm_loss:16.6423
+Train Epoch:[49/80] iteration:[400/1065] cmpm_loss:16.7329
+Train Epoch:[49/80] iteration:[500/1065] cmpm_loss:16.8587
+Train Epoch:[49/80] iteration:[600/1065] cmpm_loss:17.0479
+Train Epoch:[49/80] iteration:[700/1065] cmpm_loss:17.1657
+Train Epoch:[49/80] iteration:[800/1065] cmpm_loss:17.1730
+Train Epoch:[49/80] iteration:[900/1065] cmpm_loss:17.2036
+Train Epoch:[49/80] iteration:[1000/1065] cmpm_loss:17.2897
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[50/80] iteration:[0/1065] cmpm_loss:19.9308
+Train Epoch:[50/80] iteration:[100/1065] cmpm_loss:15.9837
+Train Epoch:[50/80] iteration:[200/1065] cmpm_loss:15.8192
+Train Epoch:[50/80] iteration:[300/1065] cmpm_loss:15.9747
+Train Epoch:[50/80] iteration:[400/1065] cmpm_loss:16.1345
+Train Epoch:[50/80] iteration:[500/1065] cmpm_loss:16.3049
+Train Epoch:[50/80] iteration:[600/1065] cmpm_loss:16.3738
+Train Epoch:[50/80] iteration:[700/1065] cmpm_loss:16.4033
+Train Epoch:[50/80] iteration:[800/1065] cmpm_loss:16.4672
+Train Epoch:[50/80] iteration:[900/1065] cmpm_loss:16.5799
+Train Epoch:[50/80] iteration:[1000/1065] cmpm_loss:16.7663
+Epoch_training complete in 11m 17s
+**********************************************************
+lr : 0.003
+Train Epoch:[51/80] iteration:[0/1065] cmpm_loss:14.7423
+Train Epoch:[51/80] iteration:[100/1065] cmpm_loss:15.6958
+Train Epoch:[51/80] iteration:[200/1065] cmpm_loss:15.5570
+Train Epoch:[51/80] iteration:[300/1065] cmpm_loss:15.9686
+Train Epoch:[51/80] iteration:[400/1065] cmpm_loss:16.0377
+Train Epoch:[51/80] iteration:[500/1065] cmpm_loss:16.0933
+Train Epoch:[51/80] iteration:[600/1065] cmpm_loss:16.1235
+Train Epoch:[51/80] iteration:[700/1065] cmpm_loss:16.2864
+Train Epoch:[51/80] iteration:[800/1065] cmpm_loss:16.2446
+Train Epoch:[51/80] iteration:[900/1065] cmpm_loss:16.4556
+Train Epoch:[51/80] iteration:[1000/1065] cmpm_loss:16.4677
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[52/80] iteration:[0/1065] cmpm_loss:8.5147
+Train Epoch:[52/80] iteration:[100/1065] cmpm_loss:15.7122
+Train Epoch:[52/80] iteration:[200/1065] cmpm_loss:15.3599
+Train Epoch:[52/80] iteration:[300/1065] cmpm_loss:15.3874
+Train Epoch:[52/80] iteration:[400/1065] cmpm_loss:15.5834
+Train Epoch:[52/80] iteration:[500/1065] cmpm_loss:15.7311
+Train Epoch:[52/80] iteration:[600/1065] cmpm_loss:15.5557
+Train Epoch:[52/80] iteration:[700/1065] cmpm_loss:15.7184
+Train Epoch:[52/80] iteration:[800/1065] cmpm_loss:15.7921
+Train Epoch:[52/80] iteration:[900/1065] cmpm_loss:15.8858
+Train Epoch:[52/80] iteration:[1000/1065] cmpm_loss:15.8988
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[53/80] iteration:[0/1065] cmpm_loss:15.3222
+Train Epoch:[53/80] iteration:[100/1065] cmpm_loss:14.6794
+Train Epoch:[53/80] iteration:[200/1065] cmpm_loss:14.4981
+Train Epoch:[53/80] iteration:[300/1065] cmpm_loss:14.6942
+Train Epoch:[53/80] iteration:[400/1065] cmpm_loss:14.9682
+Train Epoch:[53/80] iteration:[500/1065] cmpm_loss:15.1863
+Train Epoch:[53/80] iteration:[600/1065] cmpm_loss:15.2616
+Train Epoch:[53/80] iteration:[700/1065] cmpm_loss:15.4423
+Train Epoch:[53/80] iteration:[800/1065] cmpm_loss:15.5126
+Train Epoch:[53/80] iteration:[900/1065] cmpm_loss:15.8170
+Train Epoch:[53/80] iteration:[1000/1065] cmpm_loss:15.7555
+Epoch_training complete in 11m 17s
+**********************************************************
+lr : 0.003
+Train Epoch:[54/80] iteration:[0/1065] cmpm_loss:9.4048
+Train Epoch:[54/80] iteration:[100/1065] cmpm_loss:14.3600
+Train Epoch:[54/80] iteration:[200/1065] cmpm_loss:14.6971
+Train Epoch:[54/80] iteration:[300/1065] cmpm_loss:14.7635
+Train Epoch:[54/80] iteration:[400/1065] cmpm_loss:14.9436
+Train Epoch:[54/80] iteration:[500/1065] cmpm_loss:15.0259
+Train Epoch:[54/80] iteration:[600/1065] cmpm_loss:15.0629
+Train Epoch:[54/80] iteration:[700/1065] cmpm_loss:15.1771
+Train Epoch:[54/80] iteration:[800/1065] cmpm_loss:15.3633
+Train Epoch:[54/80] iteration:[900/1065] cmpm_loss:15.4196
+Train Epoch:[54/80] iteration:[1000/1065] cmpm_loss:15.5038
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.003
+Train Epoch:[55/80] iteration:[0/1065] cmpm_loss:11.6680
+Train Epoch:[55/80] iteration:[100/1065] cmpm_loss:14.1289
+Train Epoch:[55/80] iteration:[200/1065] cmpm_loss:14.1252
+Train Epoch:[55/80] iteration:[300/1065] cmpm_loss:14.4008
+Train Epoch:[55/80] iteration:[400/1065] cmpm_loss:14.4702
+Train Epoch:[55/80] iteration:[500/1065] cmpm_loss:14.6547
+Train Epoch:[55/80] iteration:[600/1065] cmpm_loss:14.7263
+Train Epoch:[55/80] iteration:[700/1065] cmpm_loss:14.8869
+Train Epoch:[55/80] iteration:[800/1065] cmpm_loss:14.8747
+Train Epoch:[55/80] iteration:[900/1065] cmpm_loss:14.9483
+Train Epoch:[55/80] iteration:[1000/1065] cmpm_loss:14.9921
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[56/80] iteration:[0/1065] cmpm_loss:21.5013
+Train Epoch:[56/80] iteration:[100/1065] cmpm_loss:12.9332
+Train Epoch:[56/80] iteration:[200/1065] cmpm_loss:12.6005
+Train Epoch:[56/80] iteration:[300/1065] cmpm_loss:12.4769
+Train Epoch:[56/80] iteration:[400/1065] cmpm_loss:12.1650
+Train Epoch:[56/80] iteration:[500/1065] cmpm_loss:12.0366
+Train Epoch:[56/80] iteration:[600/1065] cmpm_loss:11.8180
+Train Epoch:[56/80] iteration:[700/1065] cmpm_loss:11.6716
+Train Epoch:[56/80] iteration:[800/1065] cmpm_loss:11.5084
+Train Epoch:[56/80] iteration:[900/1065] cmpm_loss:11.3766
+Train Epoch:[56/80] iteration:[1000/1065] cmpm_loss:11.2503
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[57/80] iteration:[0/1065] cmpm_loss:6.2741
+Train Epoch:[57/80] iteration:[100/1065] cmpm_loss:10.1888
+Train Epoch:[57/80] iteration:[200/1065] cmpm_loss:10.1731
+Train Epoch:[57/80] iteration:[300/1065] cmpm_loss:10.1828
+Train Epoch:[57/80] iteration:[400/1065] cmpm_loss:10.0746
+Train Epoch:[57/80] iteration:[500/1065] cmpm_loss:9.9800
+Train Epoch:[57/80] iteration:[600/1065] cmpm_loss:9.9885
+Train Epoch:[57/80] iteration:[700/1065] cmpm_loss:9.9052
+Train Epoch:[57/80] iteration:[800/1065] cmpm_loss:9.8661
+Train Epoch:[57/80] iteration:[900/1065] cmpm_loss:9.8070
+Train Epoch:[57/80] iteration:[1000/1065] cmpm_loss:9.7333
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[58/80] iteration:[0/1065] cmpm_loss:17.2195
+Train Epoch:[58/80] iteration:[100/1065] cmpm_loss:9.0650
+Train Epoch:[58/80] iteration:[200/1065] cmpm_loss:9.3786
+Train Epoch:[58/80] iteration:[300/1065] cmpm_loss:9.4112
+Train Epoch:[58/80] iteration:[400/1065] cmpm_loss:9.2994
+Train Epoch:[58/80] iteration:[500/1065] cmpm_loss:9.2549
+Train Epoch:[58/80] iteration:[600/1065] cmpm_loss:9.1413
+Train Epoch:[58/80] iteration:[700/1065] cmpm_loss:9.1093
+Train Epoch:[58/80] iteration:[800/1065] cmpm_loss:9.0551
+Train Epoch:[58/80] iteration:[900/1065] cmpm_loss:9.0169
+Train Epoch:[58/80] iteration:[1000/1065] cmpm_loss:8.9766
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[59/80] iteration:[0/1065] cmpm_loss:8.7377
+Train Epoch:[59/80] iteration:[100/1065] cmpm_loss:8.4165
+Train Epoch:[59/80] iteration:[200/1065] cmpm_loss:8.4769
+Train Epoch:[59/80] iteration:[300/1065] cmpm_loss:8.5576
+Train Epoch:[59/80] iteration:[400/1065] cmpm_loss:8.5446
+Train Epoch:[59/80] iteration:[500/1065] cmpm_loss:8.5136
+Train Epoch:[59/80] iteration:[600/1065] cmpm_loss:8.4937
+Train Epoch:[59/80] iteration:[700/1065] cmpm_loss:8.5216
+Train Epoch:[59/80] iteration:[800/1065] cmpm_loss:8.5765
+Train Epoch:[59/80] iteration:[900/1065] cmpm_loss:8.5263
+Train Epoch:[59/80] iteration:[1000/1065] cmpm_loss:8.5317
+Epoch_training complete in 11m 19s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[60/80] iteration:[0/1065] cmpm_loss:4.9768
+Train Epoch:[60/80] iteration:[100/1065] cmpm_loss:7.7106
+Train Epoch:[60/80] iteration:[200/1065] cmpm_loss:7.9817
+Train Epoch:[60/80] iteration:[300/1065] cmpm_loss:8.0397
+Train Epoch:[60/80] iteration:[400/1065] cmpm_loss:8.0881
+Train Epoch:[60/80] iteration:[500/1065] cmpm_loss:8.1519
+Train Epoch:[60/80] iteration:[600/1065] cmpm_loss:8.0786
+Train Epoch:[60/80] iteration:[700/1065] cmpm_loss:8.1198
+Train Epoch:[60/80] iteration:[800/1065] cmpm_loss:8.1007
+Train Epoch:[60/80] iteration:[900/1065] cmpm_loss:8.1139
+Train Epoch:[60/80] iteration:[1000/1065] cmpm_loss:8.1548
+Epoch_training complete in 11m 21s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[61/80] iteration:[0/1065] cmpm_loss:3.9571
+Train Epoch:[61/80] iteration:[100/1065] cmpm_loss:7.4571
+Train Epoch:[61/80] iteration:[200/1065] cmpm_loss:7.5112
+Train Epoch:[61/80] iteration:[300/1065] cmpm_loss:7.7442
+Train Epoch:[61/80] iteration:[400/1065] cmpm_loss:7.8219
+Train Epoch:[61/80] iteration:[500/1065] cmpm_loss:7.7888
+Train Epoch:[61/80] iteration:[600/1065] cmpm_loss:7.8161
+Train Epoch:[61/80] iteration:[700/1065] cmpm_loss:7.8100
+Train Epoch:[61/80] iteration:[800/1065] cmpm_loss:7.8580
+Train Epoch:[61/80] iteration:[900/1065] cmpm_loss:7.8419
+Train Epoch:[61/80] iteration:[1000/1065] cmpm_loss:7.8604
+Epoch_training complete in 11m 19s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[62/80] iteration:[0/1065] cmpm_loss:9.1672
+Train Epoch:[62/80] iteration:[100/1065] cmpm_loss:7.6921
+Train Epoch:[62/80] iteration:[200/1065] cmpm_loss:7.7852
+Train Epoch:[62/80] iteration:[300/1065] cmpm_loss:7.6875
+Train Epoch:[62/80] iteration:[400/1065] cmpm_loss:7.8141
+Train Epoch:[62/80] iteration:[500/1065] cmpm_loss:7.7790
+Train Epoch:[62/80] iteration:[600/1065] cmpm_loss:7.7110
+Train Epoch:[62/80] iteration:[700/1065] cmpm_loss:7.7831
+Train Epoch:[62/80] iteration:[800/1065] cmpm_loss:7.7068
+Train Epoch:[62/80] iteration:[900/1065] cmpm_loss:7.6671
+Train Epoch:[62/80] iteration:[1000/1065] cmpm_loss:7.6749
+Epoch_training complete in 11m 20s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[63/80] iteration:[0/1065] cmpm_loss:5.3135
+Train Epoch:[63/80] iteration:[100/1065] cmpm_loss:7.8737
+Train Epoch:[63/80] iteration:[200/1065] cmpm_loss:7.6591
+Train Epoch:[63/80] iteration:[300/1065] cmpm_loss:7.5962
+Train Epoch:[63/80] iteration:[400/1065] cmpm_loss:7.4709
+Train Epoch:[63/80] iteration:[500/1065] cmpm_loss:7.5759
+Train Epoch:[63/80] iteration:[600/1065] cmpm_loss:7.5833
+Train Epoch:[63/80] iteration:[700/1065] cmpm_loss:7.5088
+Train Epoch:[63/80] iteration:[800/1065] cmpm_loss:7.5064
+Train Epoch:[63/80] iteration:[900/1065] cmpm_loss:7.4912
+Train Epoch:[63/80] iteration:[1000/1065] cmpm_loss:7.4608
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[64/80] iteration:[0/1065] cmpm_loss:14.2464
+Train Epoch:[64/80] iteration:[100/1065] cmpm_loss:7.0004
+Train Epoch:[64/80] iteration:[200/1065] cmpm_loss:7.0781
+Train Epoch:[64/80] iteration:[300/1065] cmpm_loss:7.0200
+Train Epoch:[64/80] iteration:[400/1065] cmpm_loss:7.2161
+Train Epoch:[64/80] iteration:[500/1065] cmpm_loss:7.1719
+Train Epoch:[64/80] iteration:[600/1065] cmpm_loss:7.1739
+Train Epoch:[64/80] iteration:[700/1065] cmpm_loss:7.1789
+Train Epoch:[64/80] iteration:[800/1065] cmpm_loss:7.1710
+Train Epoch:[64/80] iteration:[900/1065] cmpm_loss:7.2136
+Train Epoch:[64/80] iteration:[1000/1065] cmpm_loss:7.1957
+Epoch_training complete in 11m 19s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[65/80] iteration:[0/1065] cmpm_loss:6.6322
+Train Epoch:[65/80] iteration:[100/1065] cmpm_loss:7.7877
+Train Epoch:[65/80] iteration:[200/1065] cmpm_loss:7.4743
+Train Epoch:[65/80] iteration:[300/1065] cmpm_loss:7.4289
+Train Epoch:[65/80] iteration:[400/1065] cmpm_loss:7.3595
+Train Epoch:[65/80] iteration:[500/1065] cmpm_loss:7.3521
+Train Epoch:[65/80] iteration:[600/1065] cmpm_loss:7.2837
+Train Epoch:[65/80] iteration:[700/1065] cmpm_loss:7.3198
+Train Epoch:[65/80] iteration:[800/1065] cmpm_loss:7.2897
+Train Epoch:[65/80] iteration:[900/1065] cmpm_loss:7.2668
+Train Epoch:[65/80] iteration:[1000/1065] cmpm_loss:7.2604
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[66/80] iteration:[0/1065] cmpm_loss:4.0653
+Train Epoch:[66/80] iteration:[100/1065] cmpm_loss:7.2558
+Train Epoch:[66/80] iteration:[200/1065] cmpm_loss:7.2775
+Train Epoch:[66/80] iteration:[300/1065] cmpm_loss:7.1118
+Train Epoch:[66/80] iteration:[400/1065] cmpm_loss:7.0716
+Train Epoch:[66/80] iteration:[500/1065] cmpm_loss:7.0876
+Train Epoch:[66/80] iteration:[600/1065] cmpm_loss:7.0918
+Train Epoch:[66/80] iteration:[700/1065] cmpm_loss:7.1055
+Train Epoch:[66/80] iteration:[800/1065] cmpm_loss:7.0437
+Train Epoch:[66/80] iteration:[900/1065] cmpm_loss:7.0455
+Train Epoch:[66/80] iteration:[1000/1065] cmpm_loss:7.0414
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[67/80] iteration:[0/1065] cmpm_loss:2.5274
+Train Epoch:[67/80] iteration:[100/1065] cmpm_loss:7.1071
+Train Epoch:[67/80] iteration:[200/1065] cmpm_loss:7.1200
+Train Epoch:[67/80] iteration:[300/1065] cmpm_loss:7.1371
+Train Epoch:[67/80] iteration:[400/1065] cmpm_loss:7.1449
+Train Epoch:[67/80] iteration:[500/1065] cmpm_loss:7.0684
+Train Epoch:[67/80] iteration:[600/1065] cmpm_loss:6.9675
+Train Epoch:[67/80] iteration:[700/1065] cmpm_loss:6.9446
+Train Epoch:[67/80] iteration:[800/1065] cmpm_loss:6.9204
+Train Epoch:[67/80] iteration:[900/1065] cmpm_loss:6.9255
+Train Epoch:[67/80] iteration:[1000/1065] cmpm_loss:6.9288
+Epoch_training complete in 11m 19s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[68/80] iteration:[0/1065] cmpm_loss:11.4115
+Train Epoch:[68/80] iteration:[100/1065] cmpm_loss:6.5376
+Train Epoch:[68/80] iteration:[200/1065] cmpm_loss:6.5793
+Train Epoch:[68/80] iteration:[300/1065] cmpm_loss:6.6016
+Train Epoch:[68/80] iteration:[400/1065] cmpm_loss:6.6779
+Train Epoch:[68/80] iteration:[500/1065] cmpm_loss:6.7536
+Train Epoch:[68/80] iteration:[600/1065] cmpm_loss:6.7479
+Train Epoch:[68/80] iteration:[700/1065] cmpm_loss:6.7335
+Train Epoch:[68/80] iteration:[800/1065] cmpm_loss:6.7679
+Train Epoch:[68/80] iteration:[900/1065] cmpm_loss:6.8235
+Train Epoch:[68/80] iteration:[1000/1065] cmpm_loss:6.8080
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[69/80] iteration:[0/1065] cmpm_loss:4.1303
+Train Epoch:[69/80] iteration:[100/1065] cmpm_loss:6.6308
+Train Epoch:[69/80] iteration:[200/1065] cmpm_loss:6.5786
+Train Epoch:[69/80] iteration:[300/1065] cmpm_loss:6.5732
+Train Epoch:[69/80] iteration:[400/1065] cmpm_loss:6.6417
+Train Epoch:[69/80] iteration:[500/1065] cmpm_loss:6.6504
+Train Epoch:[69/80] iteration:[600/1065] cmpm_loss:6.6322
+Train Epoch:[69/80] iteration:[700/1065] cmpm_loss:6.5914
+Train Epoch:[69/80] iteration:[800/1065] cmpm_loss:6.5535
+Train Epoch:[69/80] iteration:[900/1065] cmpm_loss:6.6217
+Train Epoch:[69/80] iteration:[1000/1065] cmpm_loss:6.6056
+Epoch_training complete in 11m 19s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[70/80] iteration:[0/1065] cmpm_loss:3.1112
+Train Epoch:[70/80] iteration:[100/1065] cmpm_loss:6.3304
+Train Epoch:[70/80] iteration:[200/1065] cmpm_loss:6.1429
+Train Epoch:[70/80] iteration:[300/1065] cmpm_loss:6.4098
+Train Epoch:[70/80] iteration:[400/1065] cmpm_loss:6.4594
+Train Epoch:[70/80] iteration:[500/1065] cmpm_loss:6.4865
+Train Epoch:[70/80] iteration:[600/1065] cmpm_loss:6.4512
+Train Epoch:[70/80] iteration:[700/1065] cmpm_loss:6.5229
+Train Epoch:[70/80] iteration:[800/1065] cmpm_loss:6.5913
+Train Epoch:[70/80] iteration:[900/1065] cmpm_loss:6.6012
+Train Epoch:[70/80] iteration:[1000/1065] cmpm_loss:6.6115
+Epoch_training complete in 11m 19s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[71/80] iteration:[0/1065] cmpm_loss:5.5805
+Train Epoch:[71/80] iteration:[100/1065] cmpm_loss:6.3338
+Train Epoch:[71/80] iteration:[200/1065] cmpm_loss:6.2893
+Train Epoch:[71/80] iteration:[300/1065] cmpm_loss:6.5037
+Train Epoch:[71/80] iteration:[400/1065] cmpm_loss:6.5364
+Train Epoch:[71/80] iteration:[500/1065] cmpm_loss:6.5543
+Train Epoch:[71/80] iteration:[600/1065] cmpm_loss:6.5376
+Train Epoch:[71/80] iteration:[700/1065] cmpm_loss:6.5157
+Train Epoch:[71/80] iteration:[800/1065] cmpm_loss:6.4818
+Train Epoch:[71/80] iteration:[900/1065] cmpm_loss:6.4805
+Train Epoch:[71/80] iteration:[1000/1065] cmpm_loss:6.4790
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[72/80] iteration:[0/1065] cmpm_loss:11.2194
+Train Epoch:[72/80] iteration:[100/1065] cmpm_loss:6.4486
+Train Epoch:[72/80] iteration:[200/1065] cmpm_loss:6.2589
+Train Epoch:[72/80] iteration:[300/1065] cmpm_loss:6.4666
+Train Epoch:[72/80] iteration:[400/1065] cmpm_loss:6.4243
+Train Epoch:[72/80] iteration:[500/1065] cmpm_loss:6.4848
+Train Epoch:[72/80] iteration:[600/1065] cmpm_loss:6.4307
+Train Epoch:[72/80] iteration:[700/1065] cmpm_loss:6.4248
+Train Epoch:[72/80] iteration:[800/1065] cmpm_loss:6.3921
+Train Epoch:[72/80] iteration:[900/1065] cmpm_loss:6.3696
+Train Epoch:[72/80] iteration:[1000/1065] cmpm_loss:6.3549
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[73/80] iteration:[0/1065] cmpm_loss:5.6118
+Train Epoch:[73/80] iteration:[100/1065] cmpm_loss:6.7722
+Train Epoch:[73/80] iteration:[200/1065] cmpm_loss:6.3800
+Train Epoch:[73/80] iteration:[300/1065] cmpm_loss:6.2953
+Train Epoch:[73/80] iteration:[400/1065] cmpm_loss:6.2503
+Train Epoch:[73/80] iteration:[500/1065] cmpm_loss:6.2367
+Train Epoch:[73/80] iteration:[600/1065] cmpm_loss:6.2140
+Train Epoch:[73/80] iteration:[700/1065] cmpm_loss:6.2624
+Train Epoch:[73/80] iteration:[800/1065] cmpm_loss:6.2443
+Train Epoch:[73/80] iteration:[900/1065] cmpm_loss:6.2227
+Train Epoch:[73/80] iteration:[1000/1065] cmpm_loss:6.1691
+Epoch_training complete in 11m 19s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[74/80] iteration:[0/1065] cmpm_loss:6.5923
+Train Epoch:[74/80] iteration:[100/1065] cmpm_loss:6.1544
+Train Epoch:[74/80] iteration:[200/1065] cmpm_loss:6.4858
+Train Epoch:[74/80] iteration:[300/1065] cmpm_loss:6.3706
+Train Epoch:[74/80] iteration:[400/1065] cmpm_loss:6.4322
+Train Epoch:[74/80] iteration:[500/1065] cmpm_loss:6.3824
+Train Epoch:[74/80] iteration:[600/1065] cmpm_loss:6.3353
+Train Epoch:[74/80] iteration:[700/1065] cmpm_loss:6.2677
+Train Epoch:[74/80] iteration:[800/1065] cmpm_loss:6.2092
+Train Epoch:[74/80] iteration:[900/1065] cmpm_loss:6.2223
+Train Epoch:[74/80] iteration:[1000/1065] cmpm_loss:6.1998
+Epoch_training complete in 11m 18s
+**********************************************************
+lr : 0.00030000000000000003
+Train Epoch:[75/80] iteration:[0/1065] cmpm_loss:7.9962
+Train Epoch:[75/80] iteration:[100/1065] cmpm_loss:6.1381
+Train Epoch:[75/80] iteration:[200/1065] cmpm_loss:6.0986
+Train Epoch:[75/80] iteration:[300/1065] cmpm_loss:6.1954
+Train Epoch:[75/80] iteration:[400/1065] cmpm_loss:6.1497
+Train Epoch:[75/80] iteration:[500/1065] cmpm_loss:6.1673
+Train Epoch:[75/80] iteration:[600/1065] cmpm_loss:6.1673
+Train Epoch:[75/80] iteration:[700/1065] cmpm_loss:6.1520
+Train Epoch:[75/80] iteration:[800/1065] cmpm_loss:6.1639
+Train Epoch:[75/80] iteration:[900/1065] cmpm_loss:6.1364
+Train Epoch:[75/80] iteration:[1000/1065] cmpm_loss:6.1621
+Epoch_training complete in 11m 22s
+**********************************************************
+lr : 3.0000000000000004e-05
+Train Epoch:[76/80] iteration:[0/1065] cmpm_loss:2.9015
+Train Epoch:[76/80] iteration:[100/1065] cmpm_loss:5.8697
+Train Epoch:[76/80] iteration:[200/1065] cmpm_loss:5.9801
+Train Epoch:[76/80] iteration:[300/1065] cmpm_loss:5.8317
+Train Epoch:[76/80] iteration:[400/1065] cmpm_loss:5.8768
+Train Epoch:[76/80] iteration:[500/1065] cmpm_loss:5.9435
+Train Epoch:[76/80] iteration:[600/1065] cmpm_loss:5.8998
+Train Epoch:[76/80] iteration:[700/1065] cmpm_loss:5.9202
+Train Epoch:[76/80] iteration:[800/1065] cmpm_loss:5.9057
+Train Epoch:[76/80] iteration:[900/1065] cmpm_loss:5.9251
+Train Epoch:[76/80] iteration:[1000/1065] cmpm_loss:5.9197
+Epoch_training complete in 11m 22s
+**********************************************************
+lr : 3.0000000000000004e-05
+Train Epoch:[77/80] iteration:[0/1065] cmpm_loss:6.6043
+Train Epoch:[77/80] iteration:[100/1065] cmpm_loss:5.7133
+Train Epoch:[77/80] iteration:[200/1065] cmpm_loss:5.6851
+Train Epoch:[77/80] iteration:[300/1065] cmpm_loss:5.6377
+Train Epoch:[77/80] iteration:[400/1065] cmpm_loss:5.7096
+Train Epoch:[77/80] iteration:[500/1065] cmpm_loss:5.8060
+Train Epoch:[77/80] iteration:[600/1065] cmpm_loss:5.8093
+Train Epoch:[77/80] iteration:[700/1065] cmpm_loss:5.7793
+Train Epoch:[77/80] iteration:[800/1065] cmpm_loss:5.7977
+Train Epoch:[77/80] iteration:[900/1065] cmpm_loss:5.8306
+Train Epoch:[77/80] iteration:[1000/1065] cmpm_loss:5.8441
+Epoch_training complete in 11m 21s
+**********************************************************
+lr : 3.0000000000000004e-05
+Train Epoch:[78/80] iteration:[0/1065] cmpm_loss:2.9486
+Train Epoch:[78/80] iteration:[100/1065] cmpm_loss:5.4962
+Train Epoch:[78/80] iteration:[200/1065] cmpm_loss:5.6211
+Train Epoch:[78/80] iteration:[300/1065] cmpm_loss:5.7090
+Train Epoch:[78/80] iteration:[400/1065] cmpm_loss:5.7490
+Train Epoch:[78/80] iteration:[500/1065] cmpm_loss:5.6952
+Train Epoch:[78/80] iteration:[600/1065] cmpm_loss:5.6429
+Train Epoch:[78/80] iteration:[700/1065] cmpm_loss:5.6683
+Train Epoch:[78/80] iteration:[800/1065] cmpm_loss:5.6421
+Train Epoch:[78/80] iteration:[900/1065] cmpm_loss:5.7007
+Train Epoch:[78/80] iteration:[1000/1065] cmpm_loss:5.6981
+Epoch_training complete in 11m 20s
+**********************************************************
+lr : 3.0000000000000004e-05
+Train Epoch:[79/80] iteration:[0/1065] cmpm_loss:7.7287
+Train Epoch:[79/80] iteration:[100/1065] cmpm_loss:6.0904
+Train Epoch:[79/80] iteration:[200/1065] cmpm_loss:6.0154
+Train Epoch:[79/80] iteration:[300/1065] cmpm_loss:5.7922
+Train Epoch:[79/80] iteration:[400/1065] cmpm_loss:5.7342
+Train Epoch:[79/80] iteration:[500/1065] cmpm_loss:5.6584
+Train Epoch:[79/80] iteration:[600/1065] cmpm_loss:5.7186
+Train Epoch:[79/80] iteration:[700/1065] cmpm_loss:5.7284
+Train Epoch:[79/80] iteration:[800/1065] cmpm_loss:5.7200
+Train Epoch:[79/80] iteration:[900/1065] cmpm_loss:5.7554
+Train Epoch:[79/80] iteration:[1000/1065] cmpm_loss:5.7359
+Epoch_training complete in 11m 20s
+**********************************************************
+lr : 3.0000000000000004e-05
+Train Epoch:[80/80] iteration:[0/1065] cmpm_loss:5.4429
+Train Epoch:[80/80] iteration:[100/1065] cmpm_loss:5.4213
+Train Epoch:[80/80] iteration:[200/1065] cmpm_loss:5.4784
+Train Epoch:[80/80] iteration:[300/1065] cmpm_loss:5.5741
+Train Epoch:[80/80] iteration:[400/1065] cmpm_loss:5.5762
+Train Epoch:[80/80] iteration:[500/1065] cmpm_loss:5.6256
+Train Epoch:[80/80] iteration:[600/1065] cmpm_loss:5.6437
+Train Epoch:[80/80] iteration:[700/1065] cmpm_loss:5.6415
+Train Epoch:[80/80] iteration:[800/1065] cmpm_loss:5.6532
+Train Epoch:[80/80] iteration:[900/1065] cmpm_loss:5.6473
+Train Epoch:[80/80] iteration:[1000/1065] cmpm_loss:5.7041
+Epoch_training complete in 11m 20s

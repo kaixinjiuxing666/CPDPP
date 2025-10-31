@@ -1,0 +1,8 @@
+##----------------- test -----------------##
+The word length is 64
+The word embedding type is BERT
+the number of test : 6148
+./log/11_suture_2_3_attn/80.pth.tar
+Load checkpoint at epoch 80.
+Rank@1:0.66051 Rank@5:0.851692 Rank@10:0.907024 mAP:0.557308
+Epoch:80:t2i_top1_best: 0.66051, t2i_top5_best: 0.851692,t2i_top10_best: 0.907024,mAP_best: 0.557308
